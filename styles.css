@@ -1,0 +1,63 @@
+:root{
+    background: rgb(24,85,23);
+background: linear-gradient(0deg, rgba(24,85,23,1) 75%, rgba(253,187,45,1) 100%);
+}
+header {
+    position: sticky;
+    justify-content: space-between;
+    display: flex;
+    top: 1%;
+    padding: 4px 10px;
+    background-color: #556B2F;
+    box-shadow: 0 0 3px 3px;
+}
+header h2{
+    font-family: Gill Sans, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #B8860B;
+}
+header nav a{
+    font-family: Gill Sans, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #B8860B;
+}
+div{
+    background-color:#556B2F;
+    margin: 3% 5% 3% 5%;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0 0 4px 4px black;
+    padding: 3%;
+    display: block;
+
+
+}
+div img {
+    max-height: 500px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+    left: 63%;
+    bottom: 5%;
+    right: 2%;
+    box-shadow: 0 0 2px 2px black;
+
+}
+div p{
+   font-family: URW Chancery L, cursive;
+   font-style: oblique;
+   font-weight: 600;
+   color: black;
+}
+div h2{
+    font-family: Gill Sans, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #B8860B;
+    font-stretch:extra-expanded;
+}
